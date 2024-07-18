@@ -1,0 +1,75 @@
+/* experience.css */
+.experience-section {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 16px 0;
+    color: #000; /* Set font color to black */
+}
+  
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #000; /* Set font color to black */
+}
+  
+.section-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000; /* Set font color to black */
+}
+  
+.experience-form {
+    margin-top: 16px;
+    color: #000; /* Set font color to black */
+}
+  
+.experience-form div {
+    margin-bottom: 8px;
+    color: #000; /* Set font color to black */
+}
+  
+.experience-list {
+    margin-top: 16px;
+    color: #000; /* Set font color to black */
+}
+  
+.experience-item {
+    border: 1px solid #eee;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    color: #000; /* Set font color to black */
+}
+  
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.delete-button:hover {
+    background-color: #c82333;
+}
+  
+.add-experience-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+  
+.add-experience-button:hover {
+    background-color: #0056b3;
+}

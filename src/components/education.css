@@ -1,0 +1,72 @@
+.education-section {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: black;
+    margin: 16px 0;
+}
+  
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.section-header h2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+  
+.education-form {
+    margin-top: 16px;
+}
+  
+.education-form div {
+    margin-bottom: 8px;
+}
+  
+.education-list {
+    margin-top: 16px;
+}
+  
+.education-item {
+    border: 1px solid #eee;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+.delete-button:hover {
+    background-color: #c82333;
+}
+  
+.add-education-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+  
+.add-education-button:hover {
+    background-color: #0056b3;
+}
+  
